@@ -1,2 +1,5 @@
-# Sales_Forecasting
-Processing the sales data and Building a ML forecasting model
+# 1.	Introduction:
+In today's business landscape,unlocking data's potential drives vital changes. Data-driven decisions are now a must, supported by developer communities and open sources for accessible advanced analytics. I've chosen a **supermarket's daily transactions** as a prime example, aiming to **extract**, process with **Python libraries**, and forecast sales effectively. This project epitomizes data science, **demanding technical skills** and creative solutions. Tackling messy data stands central, leading to an efficient sales prediction model. Join me in mastering this journey from data to insights in the ecommerce realm.
+
+# 2. Data description
+I've chosen Kaggle's Ecommerce dataset, portraying a typical supermart's records. With over half a million entries and 7 columns, it captures key transaction info. The first column holds unique INVOICE IDs, followed by STOCKCODE representing invoiced stocks, along with QUANTITY and UNITPRICE. INVOICEDATE is crucial for forecasting. CUSTOMERID and COUNTRY follow. DESCRIPTIONS provide stock details.
