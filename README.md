@@ -1,2 +1,12 @@
-# Sales_Forecasting
-Processing the sales data and Building a ML forecasting model
+# 1.	Introduction:
+In today's business landscape,unlocking data's potential drives vital changes. Data-driven decisions are now a must, supported by developer communities and open sources for accessible advanced analytics. I've chosen a **supermarket's daily transactions** as a prime example, aiming to **extract**, process with **Python libraries**, and forecast sales effectively. This project epitomizes data science, **demanding technical skills** and creative solutions. Tackling messy data stands central, leading to an efficient sales prediction model. Join me in mastering this journey from data to insights in the ecommerce realm.
+
+# 2. Data description
+I've chosen Kaggle's Ecommerce dataset, portraying a typical supermart's records. With over half a million entries and 7 columns, it captures key transaction info. The first column holds unique INVOICE IDs, followed by STOCKCODE representing invoiced stocks, along with QUANTITY and UNITPRICE. INVOICEDATE is crucial for forecasting. CUSTOMERID and COUNTRY follow. DESCRIPTIONS provide stock details.
+
+# 3. Data PreProcessing
+I encountered several challenges while working with the dataset. The 'CustomerID' and 'UnitPrice' columns contained missing entries, requiring special treatment to retain valuable data. The 'Invoice Date' column was crucial for time series calculations. Throughout the process, I had to carefully analyze and extract data from various columns, aiming to minimize any potential harm to the dataset. This proved to be a genuine challenge.To overcome these challenges, I actively utilized resources such as Google and AI to learn new methods for handling these extractions. Another significant hurdle was the frequent changes in Seaborn visuals. I had to quickly adapt to these changes to ensure effective data visualization
+
+# 4. Exploratory Data Analysis
+I initiated a comprehensive exploratory data analysis (EDA) to gain insights into the dataset. Through EDA techniques, I systematically familiarized myself with the data by employing Python code to pose questions and derive answers. This process consistently reinforced the principle that prior to any data manipulation, a profound understanding of the data is essential.
+         Upon completing these analyses, it became evident that both the 'CustomerID' and 'Description' columns contained null values that significantly skewed the data distribution. In response, I judiciously addressed these null values using a range of strategic approaches. Following a sequence of meticulous actions, I successfully extracted pertinent data, a crucial step towards constructing an effective forecast model.
